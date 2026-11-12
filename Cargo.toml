@@ -3,8 +3,9 @@ name = "mac-led-control"
 version = "0.1.0"
 edition = "2021"
 description = "A CLI to control the front status LED on Mac mini."
+readme = "README.md"
 repository = "https://github.com/ameknite/mac-led-control"
-license = "MIT OR Apache-2.0"
+license = "MPL-2.0"
 keywords = ["cli", "led", "macos", "smc"]
 categories = ["command-line-utilities"]
 
