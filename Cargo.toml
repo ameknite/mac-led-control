@@ -1,0 +1,13 @@
+[package]
+name = "mac-led-control"
+version = "0.1.0"
+edition = "2021"
+description = "A CLI to control the front status LED on Mac mini."
+repository = "https://github.com/yourusername/mac-led-control"
+license = "MIT OR Apache-2.0"
+keywords = ["cli", "led", "macos", "smc"]
+categories = ["command-line-utilities"]
+
+[dependencies]
+clap = { version = "4.6.7", features = ["derive"] }
+smc-lib = "0.1.2"
